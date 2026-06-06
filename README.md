@@ -1,12 +1,19 @@
-﻿Microservices Task
-Overview
+# Microservices Task
+
+## Overview
+
 This project demonstrates a microservices architecture using Node.js, Express, Docker, and Docker Compose.
-Services included:
-· User Service
-· Product Service
-· Order Service
-· Gateway Service
-Project Structure
+
+## Services Included
+
+- User Service
+- Product Service
+- Order Service
+- Gateway Service
+
+## Project Structure
+
+```text
 Microservices/
 ├── user-service
 ├── product-service
@@ -14,61 +21,53 @@ Microservices/
 ├── gateway-service
 ├── docker-compose.yml
 └── README.md
-Docker Setup
-Build and start services:
-docker compose up –build
-Stop services:
-docker compose down
-Service Endpoints
-User Service
-GET /users
-http://localhost:3000/users
-Product Service
-GET /products
-http://localhost:3001/products
-Order Service
-GET /orders
-http://localhost:3002/orders
-Gateway Service
-GET /api/users
-GET /api/products
-GET /api/orders
-Screenshots
-Docker Compose Running
-  
 
-  
+## Screenshots
 
-Docker Containers
-  
+### Docker Compose Running
 
-User Service Response
-  
+![Docker Compose Running](screenshots/01-docker-compose-running.png)
 
-Product Service Response
-  
+### Docker Containers
 
-Order Service Response
-  
+![Docker Containers](screenshots/02-docker-containers.png)
 
-Gateway Users Response
-  
+### User Service Response
 
-Gateway Products Response
-  
+![User Service Response](screenshots/03-user-service-response.png)
 
-Gateway Orders Response 
-  
+### Product Service Response
 
-Dockerfile 
-  
+![Product Service Response](screenshots/04-product-service-response.png)
 
-docker-compose.yml
-  
+### Order Service Response
 
-Technologies Used
-· Node.js
-· Express.js
-· Axios
-· Docker
-· Docker Compose
+![Order Service Response](screenshots/05-order-service-response.png)
+
+### Gateway Users Response
+
+![Gateway Users Response](screenshots/06-gateway-users-response.png)
+
+### Gateway Products Response
+
+![Gateway Products Response](screenshots/07-gateway-products-response.png)
+
+### Gateway Orders Response
+
+![Gateway Orders Response](screenshots/08-gateway-orders-response.png)
+
+### Dockerfile
+
+![Dockerfile](screenshots/09-dockerfiles.png)
+
+### docker-compose.yml
+
+![docker-compose.yml](screenshots/10-docker-compose-file.png)
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- Axios
+- Docker
+- Docker Compose
